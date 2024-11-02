@@ -1,8 +1,8 @@
-import styles from './header.module.css'
-import logoimg from '../../assets/logo.svg'
-import {Link} from 'react-router-dom'
+import styles from './header.module.css';
+import logoimg from '../../assets/logo.svg';
+import {Link} from 'react-router-dom';
 
-export function Header(){
+export function Header() {
     return(
         <>
             <header className={styles.container}>

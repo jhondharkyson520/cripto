@@ -1,7 +1,7 @@
-import styles from './notfound.module.css'
-import { Link } from 'react-router-dom'
+import styles from './notfound.module.css';
+import {Link} from 'react-router-dom';
 
-export function Notfound(){
+export function Notfound() {
     return(
         <div className={styles.container}>
             <h1>Pagina 404 não existe</h1>
