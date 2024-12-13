@@ -48,7 +48,7 @@ export function Detail() {
         async function getData() {
             try {
                 const criptoId = cripto?.toLowerCase();                
-                const response = await fetch(`https://thingproxy.freeboard.io/fetch/https://api.coingecko.com/api/v3/coins/${criptoId}`);
+                const response = await fetch(`https://api.coingecko.com/api/v3/coins/${criptoId}`);
 
                 if(!response.ok) {
                     if(response.status === 404) {
